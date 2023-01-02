@@ -1,0 +1,77 @@
+.servicos-lista li{
+display: flex;
+align-items: center;
+background-color: var(--cor-p1);
+justify-content: space-between;
+padding: 15px;
+}
+
+
+.servicos-lista li:nth-child(2){
+background-color: var(--cor-p2);
+}
+
+
+.servicos-lista li:nth-child(3){
+background-color: var(--cor-p3);
+
+}
+
+.servicos-lista li:nth-child(4){
+background-color: var(--cor-1);
+color: var(--cor-p1);
+}
+
+
+.servicos-lista li img{
+width: 20px;
+}
+
+
+
+
+@media(max-width:850px){
+.servicos{
+padding-top: 10px;
+
+}
+
+
+}
+
+
+
+
+@media(max-width:450px){
+.servicos{
+padding-top: 0px;
+}
+
+.servicos-lista li h3{
+font-size: 1rem;
+}
+    
+.galeria-paragrafo p{
+font-size: .6875rem;
+line-height: 1.4em;
+}
+
+.galeria-lista li{
+font-size: .6875rem;
+padding: 5px;
+}
+
+.servicos-lista li img{
+width: 15px;
+}
+
+
+.galeria-carros-modelos h3{
+font-size: 1rem;
+}
+
+.galeria-span>span{
+font-size: 0.875rem;
+}
+
+}

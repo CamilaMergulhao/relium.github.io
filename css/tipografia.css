@@ -1,0 +1,63 @@
+.font-h1{
+font-family: 'Roboto Slab', serif;
+font-weight: 600;
+font-size: 5rem;
+line-height: 1.125; /*divide o tamanho da fonte de 64px por 72px da altura de linha, dai fica o valor relativo de 1.125*/
+}
+
+.font-h2{
+font-family: 'Rubik', sans-serif;
+font-weight: 600;
+font-size: 2rem;
+line-height: 1.25;
+}
+
+
+
+
+.font-nav-caps{
+font-family: 'Rubik', sans-serif;
+font-weight: 600;
+font-size: 1.125rem;
+line-height: 0.75;
+text-transform: uppercase;
+}
+
+.font-btn-p{
+font-family: 'Rubik', sans-serif;
+font-weight: 400;
+font-size: 1.125rem;
+line-height: 24px;
+}
+
+
+.font-btn-pp{
+font-family: 'Rubik', sans-serif;
+font-weight: 400;
+font-size: 1rem;
+line-height: 20px;
+}
+
+
+.font-btn-pp-span{
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+font-size: 1rem;
+line-height: 20px;
+}
+
+
+.font-pp-2{
+font-family: 'Rubik', sans-serif;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 20px;
+}
+
+
+
+
+
+
+
+

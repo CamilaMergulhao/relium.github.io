@@ -1,0 +1,12 @@
+@import "header.css";
+@import "introducao.css";
+@import "galeria.css";
+@import "servicos.css";
+@import "footer.css";
+
+@import "global.css";
+
+
+@import "componentes.css";
+@import "cores.css";
+@import "tipografia.css";

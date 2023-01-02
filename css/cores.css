@@ -1,0 +1,44 @@
+:root{
+--cor-logo: #136D73;
+--cor-dg-top: #EDE1A1;
+--cor-dg-bottom: #D5E0BA;
+--cor-1: #042021;
+--cor-borda:#c7be82;
+
+--cor-p1: #F5F3E8;
+--cor-p2: #E8D177;
+--cor-p3: #B5DDE1;
+}
+
+
+.cor-logo{
+color: var(--cor-logo);
+}
+
+.cor-dg-top{
+color: var(--cor-dg-top);
+}
+
+.cor-dg-bottom{
+color: var(--cor-dg-bottom);
+}
+
+.cor-1{
+color: var(--cor-1);
+}
+
+.cor-borda{
+color: var(--cor-borda);
+}
+
+.cor-p1{
+color: var(--cor-p1);    
+}
+
+.cor-p2{
+color: var(--cor-p2);    
+}
+
+.cor-p3{
+color: var(--cor-p3);
+}

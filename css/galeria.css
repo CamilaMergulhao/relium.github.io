@@ -1,0 +1,201 @@
+.galeria-introducao{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 150px;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+
+
+.galeria-titulo h2{
+max-width: 20ch;
+}
+
+.galeria-paragrafo{
+max-width: 30ch;
+}
+
+
+.galeria-titulo h2::before{
+content: "";
+display: inline-block;
+width: 80px;
+height: 30px;
+background-image: url('../logo.svg');
+background-size: contain;
+background-repeat: no-repeat;
+margin-right: 8px;
+}
+
+
+.galeria-titulo img{
+width: 80px;
+}
+
+
+
+.galeria-lista{
+display: flex;
+gap: 100px;
+justify-content: center;
+border-top: 1px solid var(--cor-borda);
+border-bottom: 1px solid var(--cor-borda);
+}
+
+
+.galeria-lista li{
+padding-top: 20px;
+padding-bottom: 20px;
+color: var(--cor-1);
+}
+
+
+
+.galeria-carros{
+display: flex;
+}
+
+.galeria-carros img{
+margin-bottom: 8px;
+}
+
+.galeria-span{
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+border-top: 1px solid var(--cor-borda);
+border-bottom: 1px solid var(--cor-borda);
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 30px;
+margin-bottom: 60px;
+}
+
+
+.span-um{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+
+.span-um::after{
+content: "";
+display: inline-block;
+background-image: url("../img/seta.svg");
+background-repeat: no-repeat;
+background-size: contain;
+height: 18px;
+width: 18px;
+}
+
+.span-dois{
+grid-row: 2;
+}
+
+
+
+@media(max-width:950px){
+.galeria-lista{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 0px;
+border: none;
+border-top: 1px solid var(--cor-borda);
+border-bottom: 1px solid var(--cor-borda);
+}
+
+
+
+.galeria-lista li{
+/* background-color: aqua; */
+justify-self:  center;
+padding: 10px;
+color: var(--cor-logo);
+}
+}
+
+
+
+
+
+@media(max-width:850px){
+.galeria-introducao{
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+
+.galeria-titulo h2{
+text-transform: uppercase;
+text-align: center;
+}
+
+.galeria-titulo h2::before{
+display: none;
+}
+
+.galeria-paragrafo{
+text-align: center;
+font-size: 1rem;
+}
+
+.galeria-lista{
+grid-template-columns: 1fr 1fr;
+}
+
+
+.galeria-carros{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+
+
+
+.galeria-carros-modelos img{
+object-fit: cover;
+height: 180px;
+grid-row: 2;
+}
+
+.galeria-carros-modelos{
+display: grid;
+grid-template-columns: 1fr;   
+gap: 8px;
+}
+}
+
+
+@media(max-width:650px){
+.galeria-lista li{
+color: var(--cor-logo);
+}
+
+}
+
+
+
+@media(max-width:450px){
+.galeria-titulo h2{
+font-size: 1.5rem;
+}
+
+.galeria-introducao{
+padding-top:20px;
+}
+
+.galeria-paragrafo{
+font-size:  0.75rem; 
+line-height: 1.4em;
+}
+
+.galeria-lista li{
+font-size: 0.875rem;
+}
+
+
+
+}
